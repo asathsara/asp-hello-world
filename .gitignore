@@ -1,0 +1,88 @@
+## A streamlined .gitignore for modern .NET projects
+## Covers ASP.NET, .NET Core, Visual Studio, NuGet, testing and common tooling
+## Latest reference:
+## https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
+
+############################
+# Build artifacts
+############################
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+[Rr]elease/
+[Dd]ebug/
+[Dd]ebugPublic/
+bld/
+out/
+
+############################
+# .NET Core
+############################
+artifacts/
+project.lock.json
+project.fragment.lock.json
+
+############################
+# ASP.NET Scaffolding
+############################
+ScaffoldingReadMe.txt
+
+############################
+# NuGet Packages
+############################
+*.nupkg
+*.snupkg
+*.nuget.props
+*.nuget.targets
+packages/
+
+############################
+# Visual Studio files
+############################
+.vs/
+*.user
+*.suo
+*.sln.docstates
+
+############################
+# Logs
+############################
+*.log
+
+############################
+# Test output
+############################
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+
+############################
+# Code Coverage
+############################
+CodeCoverage/
+*.coverage
+*.coveragexml
+
+############################
+# Tooling / Editors
+############################
+.vscode/
+*.psess
+*.vsp
+*.pidb
+*.svclog
+
+############################
+# Temp / Junk
+############################
+*~ 
+~$*
+Thumbs.db
+*.DS_Store
