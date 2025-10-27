@@ -16,9 +16,9 @@ namespace HelloWorld
 
         protected void btn_submit_Click(object sender, EventArgs e)
         {
-            Response.Write("Username: " + txt_username.Text);
-            Response.Write("\nEmail: " + txt_email.Text);
-            Response.Write("\nPassword: " + txt_password.Text);
+            Response.Write("Username: " + txt_username.Text + "<br/>");
+            Response.Write("Email: " + txt_email.Text + "<br/>");
+            Response.Write("Password: " + txt_password.Text + "<br/>");
         }
 
         protected void btn_reset_Click(object sender, EventArgs e)
